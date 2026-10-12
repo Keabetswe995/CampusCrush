@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "CampusCrush Vite dev server",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/d",
+				"/c",
+				"npm.cmd run dev -- --host 127.0.0.1"
+			],
+			"isBackground": true,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Open CampusCrush in Microsoft Edge",
+			"type": "shell",
+			"command": "cmd.exe",
+			"args": [
+				"/d",
+				"/c",
+				"start msedge http://127.0.0.1:5173"
+			],
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

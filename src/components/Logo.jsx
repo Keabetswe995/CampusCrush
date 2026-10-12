@@ -1,0 +1,24 @@
+export function LogoMark({ size = 40 }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 64 64" aria-hidden="true">
+      <defs>
+        <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stopColor="#7b4796" /><stop offset="1" stopColor="#4a2160" />
+        </linearGradient>
+      </defs>
+      <rect width="64" height="64" rx="16" fill="url(#lg)" />
+      <g transform="translate(10 11) scale(1.83)">
+        <path fill="#fff" d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+      </g>
+    </svg>
+  )
+}
+
+export default function Logo({ size = 40 }) {
+  return (
+    <div className="logo">
+      <LogoMark size={size} />
+      <span className="wordmark">Campus<b>Crush</b></span>
+    </div>
+  )
+}

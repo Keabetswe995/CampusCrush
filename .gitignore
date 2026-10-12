@@ -1,0 +1,15 @@
+node_modules
+dist
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+
+# Android build output and signing credentials
+android/.gradle/
+android/build/
+android/**/build/
+android/local.properties
+android/*.jks
+android/*.keystore

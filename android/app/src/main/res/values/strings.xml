@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">CampusCrush</string>
+    <string name="title_activity_main">CampusCrush</string>
+    <string name="package_name">com.campuscrush.app</string>
+    <string name="custom_url_scheme">com.campuscrush.app</string>
+</resources>
